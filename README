@@ -1,9 +1,12 @@
 To run the file, call 
 
 python HMM.py HMM.txt sequence
-R
+
 The sequence should be a list of observations in order, separated by commas.
 HMM.txt can also be replaced with any other txt file, as long as they are in the same format.
+
+Example Execution:
+python HMM.py HMM.txt R,F,B,F,R
 
 The file contains 3 methods, one to load the file, one to print the given probabilities,
 and one to calculate the distribution and alpha value at each step given the input sequence.
